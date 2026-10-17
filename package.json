@@ -1,0 +1,24 @@
+{
+  "name": "virgula-sem-misterio",
+  "version": "1.0.0",
+  "description": "Mini sistema educativo para aprendizado do uso correto da vírgula",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "seed": "node database/seed.js",
+    "init-db": "node database/schema.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ejs": "^3.1.9",
+    "better-sqlite3": "^9.4.3",
+    "bcrypt": "^5.1.1",
+    "express-session": "^1.17.3",
+    "connect-sqlite3": "^0.9.15",
+    "dotenv": "^16.3.1",
+    "openai": "^4.24.1",
+    "express-rate-limit": "^7.1.4",
+    "helmet": "^7.1.0"
+  }
+}
